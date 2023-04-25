@@ -1,0 +1,431 @@
+body{ 
+    font-family: Sen, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+.acme{position: relative;
+  left: 160px;}
+.barra1{
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+    color: #f9f9f9;
+    padding-top: 20px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;  
+    
+}
+
+.anuncio{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    }
+.bnt1{border-width: 1px;
+    border-style: solid;
+    border-color: #eb5757;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: #eb5757;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.barra2{vertical-align: middle;
+    padding: 15px;
+    background-color: #eb5757;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.butoes-cabeçalho{
+    flex: 1;
+text-align: end;}
+
+.home{
+margin-top: 10px;
+margin-left: 750px;
+background-color: #eb5757;
+color: white;
+padding: 5px 25px;
+border: 2px  #eb5757;
+border-radius: 5px;
+cursor: pointer;
+transition: all .3s ease;}
+    .home:hover{
+        background-color: #222;
+        color: white;}
+
+
+.about{
+    background-color: #eb5757;
+    color: white;
+    padding: 5px 25px;
+    border: 2px  #eb5757;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease;}
+    .about:hover{
+        background-color: #222;
+        color: white;}
+        
+.shop{
+    background-color: #eb5757;
+    color: white;
+    padding: 5px 25px;
+    border: 2px  #eb5757;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease;}
+    .shop:hover{
+        background-color: #222;
+        color: white;}
+
+.donate{
+    background-color: #eb5757;
+    color: white;
+    padding: 5px 25px;
+    border: 2px  #eb5757;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease;}
+        .donate:hover{
+         background-color: #222;
+         color: white;}
+
+ .contact{
+    background-color: #eb5757;
+    color: white;
+    padding: 5px 25px;
+    border: 2px  #eb5757;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease;}
+    .contact:hover{
+        background-color: #222;
+        color: white;}
+/*PRIMEIRA FOTO*/
+.imagem1{width: 1519px;
+height: 600px;}
+.titulo.titulo {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-size: 40px;
+    color: white;
+  }
+  .botão {
+    position: absolute;
+    top: 600px;
+    left: 200px;
+  }
+
+  .btn-primary {
+    background-color: transparent;
+    color: white;
+    padding: 5px 25px;
+    border: 2px ridge white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease;
+  }
+
+  .btn-primary:hover {
+    background-color: white;
+    color: black;
+  }
+
+.container p {
+    position: absolute;
+    top: 450px;
+    left: 200px;
+    font-size: 20px;
+    color: white;
+  }
+/*Fim PRIMEIRA FOTO*/
+/*QUADRaDOS*/
+.texto-cima-quadrado{display: flex;
+    flex-direction: row;
+    
+    }
+.ways{width: fit-content;
+    position: relative;
+left: 11%;
+top: 30px;}
+
+.support{display: flex;
+    justify-content: space-around;
+     }
+.quadrados{display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    }
+
+.primeiro-quadrado-preto{background-color: #222;
+    height: 300px;
+    width: 300px;
+    border-radius: 3px;
+    background-image:url(https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e7ff57a5836db2a07bab0e3_Circle.svg);
+    background-repeat:no-repeat;
+background-position:160% 170%;}
+    .texto-quadrado1{
+        color: white;;
+        font-size: 40px;
+        margin-left: 35px;
+        
+    }
+        .texto-quadrado2{color: white;
+            font-size: 37px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top:-40px;
+
+        }
+.segundo-quadrdo-preto{background-color: #222;
+    height: 300px;
+    width: 300px;
+    border-radius:3px;
+    background-image:url(https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e7ff57adc54453434efb9ee_Triangle.svg);
+    background-repeat:no-repeat;
+background-position:130% 140%;}
+.texto-quadrado3{
+    color: white;;
+    font-size: 40px;
+    margin-left: 35px;}
+  
+    
+    .texto-quadrado4{color: white;
+        font-size: 37px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top:-10px;}
+     
+.terceiro-quadrado-preto{background-color: #222; height: 300px;
+    width: 300px;
+    border-radius: 3px;
+    background-image:url(https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e7ff57afea9a31a44d66db0_Rectangle.svg);
+    background-repeat:no-repeat;
+background-position:140% 220%;}
+.texto-quadrado5{
+    color: white;;
+    font-size: 40px;
+    margin-left: 35px;
+}
+    .texto-quadrado6{color: white;
+        font-size: 37px;
+        display: flex;
+        flex-direction: center;
+        justify-content: center;
+        margin-top:-40px;
+    }
+.textos-embaixo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 69%;
+    margin-left: 9%;
+    }
+.text2{margin-left: 15%;}
+.text3{position: relative;
+left: 140px;}
+/*FIM QUADRADOS*/
+/*ARVORE*/
+.container9{width: auto;
+    position: relative;
+    top: 300px;
+    right: 100px;
+    font-size: 20px;
+    color: white;
+    text-align: right;
+  }
+  
+.título9 {
+    position: absolute;
+    bottom: 340px;
+    right: 100px;
+    font-size: 30px;
+    color: white;
+  }
+
+  .botão9 {position: relative;
+    bottom: 300px;
+    margin-right: 100px;
+  }
+
+  .btn-primary2 {
+    background-color: white;
+    color: black;
+    border: 1px white;
+    padding: 8px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease;
+  }
+
+  .btn-primary2:hover {
+    background-color: #eb5757;
+    color: white;
+  }
+
+.container9 img {position: relative;
+    left: 100px;
+    bottom: 200px;
+    width: 100%;
+    height: 550px;
+    min-height: 550px;
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+}
+/*FIM ARVORE*/
+.shopproducts{ display: column;
+    margin-left: 212px;
+    margin-top: 150px;
+    }
+
+.imgsprodutos{ display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 5px;
+    gap: 1%;
+    }
+.barraca {width: 350px;
+    height: 350px;
+    border-radius: 5px;}
+.caneca{width: 350px;
+    height: 350px;
+    border-radius: 5px;}
+.bolsa{width: 350px;
+    height: 350px;
+    border-radius: 5px;}
+
+ .bnt {
+        display: row;
+        justify-content: space-between;
+        font: 16px;
+        cursor: pointer;
+        background:#eb5757;
+        border-radius:5px;
+        border-color: #eb5757;
+        color:white;
+        height: 38px;
+        width: 110px;
+        align-items: center;
+        margin-left: 120px;
+    }
+
+.bnt:hover {
+    background-color: #222;
+    border-color: #222;
+    color: white;
+    align-items: center;
+  }
+    .vap{ display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin-top: 60px;
+        margin-left: 650px;
+        cursor: pointer;
+        background:#222;
+        border-radius:5px;
+        border-color: #222;
+        color:white;
+        height: 38px;
+        width: 185px;}
+    .vap:hover{
+        background-color: #eb5757;
+        border-color: #eb5757;
+        color: white;
+      }
+/*FOTO MULHER*/
+.img0 {
+    position: relative;
+    left: 10%;
+    top: 210px;
+    width: 30%;
+    height: 0px;
+    min-height: 440px;
+    border-radius: 5px;
+    background-position: 69% 80%;
+    background-size: 270%;
+    z-index: 2;
+}
+
+.quadrado0{
+    background-color: #222;
+    color: white;
+    border: 50px #222;
+    border-radius: 4px; 
+    width: 800px;
+    height: 450px;
+    text-align: left;
+    padding: 50px;
+    position: relative;
+    margin-left: 300px;
+    bottom: 290px;
+    padding-right: 0px;
+    padding-left: 250px;}
+/*RODAPÈ*/
+.principalrodapé{
+    color: white;
+    width: 100%;
+    background-color:#222;
+    height: 160px;
+
+}
+
+.logoacmebaixo{
+    position: relative;
+    display:inline-block;
+    margin-left:90px;
+    margin-top: 65px;
+}
+
+.madeinwebflow{
+    position:relative;
+    bottom: 5px;
+}
+
+.redessociais{
+    display:inline-block;
+    position:relative;
+    margin-left: 940px;
+    bottom: 12px;
+}
+
+.botaowebflow{
+    margin-top:-25px;
+    margin-left:1350px;
+    margin-right:9px;
+    margin-bottom:7px;
+    position: fixed;
+    bottom: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius:3px;
+    height: 28px;
+    width: 135px;
+}
+
+.logos{
+    text-decoration:none;
+    color: white;
+
+}
+.logoacmebaixo{
+    text-decoration: none;
+    color:white;
+}
+.linkwebflowazul{
+    text-decoration: none;
+    color:white;
+}
